@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <style>
+        progress {
+            width: 200px;
+            height: 20px;
+        }
+        meter {
+            width: 200px;
+            height: 20px;
+
+        }
+        meter::-webkit-meter-optimum-value {
+            background: rgb(189, 87, 169);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Progress -->
+    <progress value="70" max="100">70%</progress>
+    <progress value="30" max="100">30%</progress>
+    <meter value="0.6" min="0" max="1" low="0.5" high="0.8" optimal="0.9">60%</meter>
+    
+</body>
+</html>
