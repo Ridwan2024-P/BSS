@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+</head>
+<body>
+    <h1>Datalist</h1>
+    <form>
+       <label for="FavLanguage">Favorite Programming Language:</label>
+       <input list="languages" id="FavLanguage" name="FavLanguage" placeholder="Select or type your favorite language">
+       <datalist id="languages">
+        <option value="Python">
+        <option value="JavaScript">
+        <option value="Java">
+        <option value="C++">
+         </datalist>
+            <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <form>
+        <label for="Time" >Preferred Time:</label>
+        <input list="times" id="Time" name="Time" placeholder="Select or type your preferred time">
+        <datalist id="times">
+            <option value="Morning">
+            <option value="Afternoon">
+            <option value="Evening">
+        </datalist>
+    </form>
+
+    <form>
+        <label for="Color">Favorite Color:</label>
+        <input list="colors" id="Color" name="Color" placeholder="Select or type your favorite color">
+        <datalist id="colors">
+            <option value="Red">
+            <option value="Green">
+            <option value="Blue">
+        </datalist>
+    </form>
+    
+</body>
+</html>
