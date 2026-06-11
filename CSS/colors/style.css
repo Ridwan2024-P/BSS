@@ -1,0 +1,30 @@
+body{
+    font-family: 'Arial', sans-serif;
+    /* background-color: #000; */
+    /* RBG */
+    /* background: rgb(0,0,0); */
+}
+.Sporty{
+    color: red;
+}
+.Casual{
+    color: #e04553
+}
+/* RGBA */
+.card{
+/* background-color: rgba(0,0,0,0.5); */
+/* HSL */
+
+/* background-color: hsl(0, 100%, 50%);
+ */
+ background-color: hsla(0, 100%,50%,0.2);
+
+
+
+}
+.card2{
+    background: black;
+  color: #fff;
+  /* opacity */
+    opacity: 0.2;
+}
