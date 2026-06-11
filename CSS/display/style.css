@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'poppins',sans-serif;
+
+
+}
+.none-el{
+    display: none;
+}
+.hidden-el{
+   visibility: hidden;
+}
+/* p{
+    display: inline;
+}
+a{
+    display: block;
+} */
+
+a{
+    /* margin-top: 50px; not  wprking */
+  display: inline-block;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+}
