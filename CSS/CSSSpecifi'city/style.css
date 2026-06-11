@@ -1,0 +1,19 @@
+body{
+    font-family: Arial,sans-serif;
+}
+/* .container h1{ 
+    color: red;
+}*/
+.heading{
+    color:red;
+}
+
+h1{
+    color :blue ;
+}
+#heading{
+    color:aquamarine !important;
+}
+
+/* 1st word inline then id  then work class then block */
+/* Important most powerful soo its work 1st */
