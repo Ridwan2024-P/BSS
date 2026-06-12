@@ -39,7 +39,7 @@ li{
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
-   text-align: center;
+    text-align: center;
     margin-bottom: 20px;
     box-shadow: 0 0px 6px rgba(0,0,0,0.1);
 
@@ -108,3 +108,15 @@ li{
     color: #98ca9e;
     margin-right: 10px;
 }
+@media(max-width:768px) {
+    .Priceing{
+        /* flex-direction: column; */
+        display: block;
+    }
+    .container{
+        margin: 2rem;
+        padding: 40px 30px;
+    }
+}
+
+
