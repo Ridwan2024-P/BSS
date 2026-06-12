@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+@media screen and (max-width:1200px) {
+    .widescreen{
+        background: red;
+    }
+    
+}
+@media(max-width:992px){
+    .normal{
+        background: blue;
+    }
+}
+@media(max-width:768px){
+    .tablet{
+        background: darkgreen;
+    }
+}
+@media(max-width:576px){
+    .smartphone{
+        background: rgb(44, 4, 138);
+    }
+}
+@media(orientation: landscape){
+    .landscape{
+        background: khaki;
+    }
+}
+@media(max-height:500px){
+    .height{
+        background: darkred;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    body{
+        background: black;
+    }
+}
